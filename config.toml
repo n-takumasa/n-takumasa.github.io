@@ -1,0 +1,61 @@
+baseURL = "https://n-takumasa.github.io/"
+languageCode = "ja-jp"
+title = "拓"
+theme = "hugo-coder"
+defaultcontentlanguage = "ja-jp"
+
+paginate = 20
+
+enableemoji = true
+enablegitinfo = true
+hasCJKLanguage = true
+
+[markup.highlight]
+style = "github-dark"
+
+[params]
+dateformat = "2006-01-02"
+author = "Takumasa N."
+info = "Engineer"
+description = "なんか書く"
+keywords = "blog,developer,personal"
+# avatarurl = "images/avatar.jpg"
+# gravatar = "john.doe@example.com"
+# favicon_32 = "/img/favicon-32x32.png"
+# favicon_16 = "/img/favicon-16x16.png"
+since = 2020
+commit = "https://github.com/n-takumasa/n-takumasa.github.io/tree/"
+# math = false
+# katex = false
+colorScheme = "auto"
+hidecolorschemetoggle = false
+# customCSS = ["css/custom.css"]
+# customSCSS = ["scss/custom.scss"]
+# customJS = ["js/custom.js"]
+enableTwemoji = true
+
+
+[taxonomies]
+# category = "categories"
+# series = "series"
+tag = "tags"
+# author = "authors"
+
+[[params.social]]
+name = "Github"
+icon = "fa fa-github fa-2x"
+weight = 1
+url = "https://github.com/n-takumasa/"
+
+[[menu.main]]
+name = "Posts"
+weight = 1
+url = "posts/"
+[[menu.main]]
+name = "Tags"
+weight = 1
+url = "tags/"
+[[menu.main]]
+name = "About"
+weight = 2
+url = "about/"
