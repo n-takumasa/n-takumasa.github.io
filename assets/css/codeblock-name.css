@@ -1,0 +1,13 @@
+.highlight-name {
+  display: inline-block;
+  margin: 2rem 0 0 !important;
+  padding: 0 1rem !important;
+
+  background-color: #5e6060;
+
+  font-size: 1.6rem;
+}
+
+.highlight pre {
+  margin-top: auto;
+}
