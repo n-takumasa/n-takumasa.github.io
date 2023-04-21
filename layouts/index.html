@@ -1,0 +1,12 @@
+{{ define "content" }}
+  <section class="container list">
+    {{ .Content }}
+    <ul>
+      {{- range .Paginator.Pages -}}
+        {{- .Render "li" -}}
+      {{- end -}}
+    </ul>
+
+    {{ partial "pagination.html" . }}
+  </section>
+{{ end }}

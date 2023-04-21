@@ -48,14 +48,6 @@ weight = 1
 url = "https://github.com/n-takumasa/"
 
 [[menu.main]]
-name = "記事"
+name = "🏷️"
 weight = 1
-url = "posts/"
-[[menu.main]]
-name = "タグ"
-weight = 2
 url = "tags/"
-[[menu.main]]
-name = "About"
-weight = 3
-url = "about/"
